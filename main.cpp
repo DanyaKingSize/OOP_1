@@ -2,13 +2,10 @@
 #include <cmath>
 #include "vector.h"
 
-
-
-
 using namespace std;
 int main() {
     setlocale(LC_ALL, "Rus");
-    cout << "____PART 1____" << endl;
+    cout << "____PART 1____" << endl;                                                                                                                                                                                                                                                                     
     cout << "1) Reading  and writes " << endl << "Reading:" << endl;
     OOO::Vector Vec1(-10, -44, 0);
     Vec1.print();
@@ -63,6 +60,6 @@ int main() {
         cout << "Sinus between vectors: " << sqrt(1 - (cosVec * cosVec)) << endl << "Degree =  " << cosVec * 180 / M_PI
              << endl;
     }
-    cout << "Govno: " << OOO::degree(VecA, VecB) << std::endl;
+    cout << "degree: " << OOO::degree(VecA, VecB) << std::endl;
 }
 
